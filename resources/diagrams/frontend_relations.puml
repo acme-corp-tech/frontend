@@ -1,6 +1,9 @@
 @startuml "frontend_relations"
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-Rel(frontend, frontend_db, "Stores something")
+Rel(customer, frontend, "Browses goods")
+Rel(customer, frontend, "Adds items to cart")
+Rel(customer, frontend, "Creates a shipping order")
+Rel(customer, frontend, "Pays for order")
 
 @enduml

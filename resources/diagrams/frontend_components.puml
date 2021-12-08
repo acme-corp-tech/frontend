@@ -1,9 +1,6 @@
 @startuml "frontend_components"
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-System_Boundary(frontend_system, "[[https://github.com/acme-corp-tech/architecture/wiki/frontend_system.svg Frontend]]") {
-    Container(frontend, "Frontend", "Go", "Change Me", $sprite="go")
-    ContainerDb(frontend_db, "Frontend Database", "MySQL", "", $sprite="mysql")
-}
+Container(frontend, "Web UI", "React", "Serves customer", $sprite="react")
 
 @enduml
