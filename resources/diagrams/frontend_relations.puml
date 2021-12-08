@@ -6,4 +6,11 @@ Rel(customer, frontend, "Adds items to cart")
 Rel(customer, frontend, "Creates a shipping order")
 Rel(customer, frontend, "Pays for order")
 
+Rel(frontend, auth_service, "Authenticates users")
+Rel(frontend, goods_service, "Gets goods information")
+Rel(frontend, goods_service, "Finds goods")
+Rel(frontend, cart_service, "Adds/removes items from cart")
+Rel(frontend, order_service, "Creates an order from cart")
+Rel(frontend, payment_service, "Initiates payment")
+
 @enduml
