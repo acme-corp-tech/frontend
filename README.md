@@ -2,16 +2,6 @@
 
 [![Build Status](https://github.com/acme-corp-tech/frontend/workflows/test-unit/badge.svg)](https://github.com/acme-corp-tech/frontend/actions?query=branch%3Amaster+workflow%3Atest-unit)
 
-<!--- TODO Update README.md -->
+This service provides customer facing UI.
 
-Project template with GitHub actions for Go.
-
-FRONTEND
-Frontend
-frontend
-frontend
-
-## Usage
-
-Create a new repository from this template, check out it and run `./run_me.sh` to replace template name with name of
-your repository.
+[![Frontend](https://raw.githubusercontent.com/wiki/acme-corp-tech/architecture/frontend_system.svg)](https://github.com/acme-corp-tech/architecture/wiki/Acme-Services#frontend-service)
